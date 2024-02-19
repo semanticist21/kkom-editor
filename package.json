@@ -1,0 +1,31 @@
+{
+  "name": "kkom-editor",
+  "version": "0.1.0",
+  "description": "kkom editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rmdir /s dist && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && fixup.bat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semanticist21/kkom-editor.git"
+  },
+  "keywords": [
+    "editor"
+  ],
+  "author": "Jiwon Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/semanticist21/kkom-editor/issues"
+  },
+  "homepage": "https://github.com/semanticist21/kkom-editor#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.56",
+    "typescript": "^5.3.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
